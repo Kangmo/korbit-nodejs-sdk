@@ -25,3 +25,6 @@ target
 
 # Project ignores.
 node_modules
+
+# by kangmo
+main/.history

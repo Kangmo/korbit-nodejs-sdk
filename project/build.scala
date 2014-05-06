@@ -24,7 +24,13 @@ object CoreBuild extends Build {
       scalaVersion := "2.10.2",
       resolvers ++= Seq(
         DefaultMavenRepository,
-        "scala.js" at "http://repo.scala-js.org/repo/releases/"
+        "scala.js" at "http://repo.scala-js.org/repo/releases/",
+        "Typesafe Repository" at "http://repo.typesafe.com/typesafe/releases/"
+      ),
+      libraryDependencies ++= Seq(
+        "com.fasterxml.jackson.core" % "jackson-databind" % "2.3.3",
+        "com.fasterxml.jackson.module" %% "jackson-module-scala" % "2.3.0",
+        "com.typesafe.akka" % "akka-actor_2.10" % "2.3.2"
       )
     )
   )
