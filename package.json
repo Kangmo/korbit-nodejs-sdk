@@ -1,9 +1,9 @@
 {
-	"author": "Rocky Madden (http://rockymadden.com/)",
+	"author": "Kangmo Kim (https://github.com/Kangmo)",
 	"config": {
 		"blanket": {"pattern": ["test/target/*-test.js"]}
 	},
-	"description": "Proof of concept to determine if scala.js could be leveraged to make a node.js module. It can.",
+	"description": ".",
 	"devDependencies": {
 		"coffee-script": "1.7.x",
 		"grunt": "0.4.x",
@@ -17,13 +17,13 @@
 		"should": "3.1.x"
 	},
 	"engines": {"node": ">=0.10.0"},
-	"homepage": "http://rockymadden.com/scala-node/",
-	"keywords": ["scala", "scala.js"],
+	"homepage": "https://github.com/Kangmo/korbit-nodejs-sdk/",
+	"keywords": ["korbit", "korbit-sdk"],
 	"main": "target/example.js",
-	"name": "scala-node",
-	"repository": {"type": "git", "url": "git://github.com/rockymadden/scala-node.git"},
+	"name": "korbit-sdk",
+	"repository": {"type": "git", "url": "git://github.com/Kangmo/korbit-nodejs-sdk.git"},
 	"scripts": {
 		"prepublish": "grunt"
 	},
-	"version": "0.2.0"
+	"version": "0.1.0"
 }
