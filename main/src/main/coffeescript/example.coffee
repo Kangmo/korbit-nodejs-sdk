@@ -9,4 +9,4 @@ sandbox = (path, context) ->
 sandbox(__dirname + '/main/target/scala-2.10/scala-node-main-extdeps.js', scala)
 sandbox(__dirname + '/main/target/scala-2.10/scala-node-main.js', scala)
 
-module.exports = scala.ScalaJS.modules.example_Example()
+module.exports = scala.ScalaJS.modules.org_kangmo_tradeapi_API()
