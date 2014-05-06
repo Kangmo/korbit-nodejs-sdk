@@ -20,8 +20,5 @@
 *.ipr
 *.iws
 
-# Build ignores.
-target
-
 # Project ignores.
 node_modules
